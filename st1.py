@@ -68,3 +68,4 @@ if uploaded_file is not None:
             )
     else:
         st.error("No tables found in the image.")
+
