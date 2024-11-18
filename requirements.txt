@@ -5,3 +5,5 @@ img2table[azure]
 opencv-python-headless
 pillow
 setuptools
+libGL
+libGLU
