@@ -1,4 +1,3 @@
-# app.py
 import streamlit as st
 from paddleocr import PaddleOCR
 from img2table.ocr import AzureOCR
@@ -6,9 +5,8 @@ from img2table.document import Image
 import cv2
 from PIL import Image as PILImage
 
-# Azure OCR configuration
-subscription_key = "your_azure_subscription_key"
-endpoint = "your_azure_endpoint"
+subscription_key = "gMYpHRCnHqA8r2MxdtL203rBZ3WLTg4qFlH9wkxU40441ZLI302qJQQJ99AKACGhslBXJ3w3AAAFACOG50Ds"
+endpoint = "https://image-extration.cognitiveservices.azure.com/"
 
 # Streamlit UI
 st.title("OCR-based Table Extraction")
