@@ -1,0 +1,6 @@
+streamlit
+paddleocr
+img2table[paddle]
+img2table[azure]
+opencv-python-headless
+pillow
